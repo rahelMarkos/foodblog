@@ -24,12 +24,13 @@
   }
   .nav-links a {
     font-weight: bold;
-    font-size: 12px;
     letter-spacing: 1px;
+    font-size: 1.2rem;
   }
-  .logo {
+  .logo h2 {
     letter-spacing: normal;
     font-size: 1.2rem;
+    margin: 0;
   }
 
   .nav-links {
@@ -38,14 +39,62 @@
   .latest {
     padding: 0;
     gap: 2rem;
-    margin: 0;
+    margin-bottom: 2rem;
   }
 }
+@media (max-width: 36em) {
+  .coright {
+    font-size: 1rem;
+  }
+  .hero-section {
+    margin: 1rem;
+  }
+  button {
+    left: 50%;
+  }
 
-@media (max-width: 25em) {
-  .latest {
-    padding: 0;
-    gap: 2rem;
+  h3 {
     margin: 0;
+    font-size: 1.4rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  .latest {
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 23em) {
+  .container {
+    overflow: hidden;
+  }
+
+  .latest {
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  .card-content {
+    font-size: 0.9rem;
+    text-align: justify;
+  }
+
+  .date {
+    font-size: 1rem;
+  }
+  .card-link {
+    font-size: 1rem;
+  }
+  .nav-links a {
+    font-size: 0.8rem;
+  }
+  .logo h2 {
+    font-size: 0.8rem;
+  }
+  .coright {
+    font-size: 0.8rem;
+  }
+  button {
+    left: 40%;
   }
 }

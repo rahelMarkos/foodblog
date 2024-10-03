@@ -20,8 +20,15 @@ h2 {
   gap: 1rem;
   margin: 1rem;
 }
+figcaption {
+  width: 100%;
+  position: absolute;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #606405;
+}
 .info {
-  color: rgb(10, 36, 10);
+  color: #0a240a;
   font-weight: 700;
   font-size: 1.3rem;
 }
@@ -63,4 +70,23 @@ h2 {
   object-fit: cover;
   border-radius: 50%;
   cursor: pointer;
+}
+@media (max-width: 55em) {
+  h3 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 20em) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  .blog-content {
+    font-size: 0.8rem;
+  }
+  .quote {
+    font-size: 0.6rem;
+  }
 }

@@ -18,7 +18,7 @@ header {
 .logo {
   letter-spacing: normal;
 
-  font-size: 22px;
+  font-size: 2.2rem;
 }
 
 .nav-links {
@@ -33,7 +33,7 @@ header {
 .nav-links a {
   text-decoration: none;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 2.2rem;
   letter-spacing: 3px;
   color: #ccc;
 }
@@ -44,7 +44,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 100px;
+  margin-bottom: 3rem;
 }
 
 .hero-img {
@@ -206,6 +206,7 @@ button {
   .nav-links a {
     font-weight: bold;
     letter-spacing: 1px;
+    font-size: 1.2rem;
   }
   .logo h2 {
     letter-spacing: normal;
@@ -219,19 +220,64 @@ button {
   .latest {
     padding: 0;
     gap: 2rem;
-    margin: 0;
+    margin-bottom: 2rem;
   }
 }
+@media (max-width: 36em) {
+  .coright {
+    font-size: 1rem;
+  }
+  .hero-section {
+    margin: 1rem;
+  }
+  button {
+    left: 50%;
+  }
 
-@media (max-width: 25em) {
+  h3 {
+    margin: 0;
+    font-size: 1rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
   .latest {
     gap: 2rem;
-    margin: 0;
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 23em) {
+  .container {
+    overflow: hidden;
+  }
+
+  .latest {
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  .card-content {
+    font-size: 0.9rem;
+    text-align: justify;
   }
   h3 {
-    margin-top: 3rem;
+    font-size: 0.8rem;
+  }
+  .date {
+    font-size: 1rem;
+  }
+  .card-link {
+    font-size: 1rem;
   }
   .nav-links a {
-    font-size: 12px;
+    font-size: 0.8rem;
+  }
+  .logo h2 {
+    font-size: 0.8rem;
+  }
+  .coright {
+    font-size: 0.8rem;
+  }
+  button {
+    left: 40%;
   }
 }
