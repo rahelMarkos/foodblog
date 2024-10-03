@@ -1,0 +1,45 @@
+@media (max-width: 80em) {
+  .container {
+    width: 100vw;
+  }
+  .hero-img {
+    display: flex;
+    width: 95%;
+    align-items: center;
+  }
+  .latest {
+    padding: 0.6rem;
+    gap: 0.6rem;
+  }
+
+  .card {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 48em) {
+  .nav {
+    padding: 1rem 0.5rem;
+  }
+  .nav-links a {
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+  .logo {
+    letter-spacing: normal;
+    font-size: 12px;
+  }
+
+  .nav-links {
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 25em) {
+  .latest {
+    background-color: red;
+    padding: 0;
+  }
+}
