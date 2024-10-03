@@ -17,6 +17,7 @@ header {
 }
 .logo {
   letter-spacing: normal;
+
   font-size: 22px;
 }
 
@@ -196,5 +197,30 @@ button {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 48em) {
+  .nav {
+    padding: 1rem 0.5rem;
+  }
+  .nav-links a {
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+  }
+  .logo h2 {
+    letter-spacing: normal;
+    font-size: 1.2rem;
+    margin: 0;
+  }
+
+  .nav-links {
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 25em) {
+  .latest {
+    padding: 0;
   }
 }
