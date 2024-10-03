@@ -66,8 +66,8 @@ header {
 .latest-img {
   width: 100%;
   height: 15rem;
-  box-shadow: 4px 8px 12px #ddd;
-  border-radius: 1rem;
+  box-shadow: 4px 8px 12px #fbfdfb;
+
   z-index: 3;
   position: relative;
 
@@ -78,7 +78,7 @@ header {
   transition: all 0.4s ease-in;
   width: 100%;
   height: 100%;
-
+  border-radius: 1rem;
   object-fit: cover;
   overflow: hidden;
 }
@@ -256,6 +256,7 @@ button {
     gap: 2rem;
     margin-bottom: 2rem;
   }
+
   .card-content {
     font-size: 0.9rem;
     text-align: justify;
