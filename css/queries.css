@@ -98,3 +98,23 @@
     left: 40%;
   }
 }
+/* BLOG POST QUIERIES */
+@media (max-width: 55em) {
+  h3 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 20em) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  .blog-content {
+    font-size: 0.8rem;
+  }
+  .quote {
+    font-size: 0.6rem;
+  }
+}
