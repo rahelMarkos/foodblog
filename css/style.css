@@ -1,6 +1,6 @@
 @import url(./general.css);
 @import url(./blogBost.css);
-@import url(./media.css);
+@import url(./queries.css);
 
 header {
   width: 100vw;
@@ -108,12 +108,12 @@ button {
 }
 .card {
   width: 100%;
-  box-shadow: 4px 8px 12px #ddd;
+  box-shadow: 4px 8px 12px #fffdfd;
 
   display: grid;
   grid-template-columns: 1fr 1fr;
   /* grid-template-rows: 30rem; */
-  border: 1px solid #ccc;
+  border: 1px solid #4f4e4e;
   border-radius: 1rem;
   gap: 1.4rem;
 }
@@ -179,9 +179,9 @@ button {
   text-align: center;
 }
 
-@media (max-width: 80em) {
+@media (max-width: 75em) {
   .container {
-    width: 100vw;
+    width: 90vw;
   }
   .hero-img {
     display: flex;
@@ -205,8 +205,7 @@ button {
   }
   .nav-links a {
     font-weight: bold;
-    font-size: 1.2rem;
-    letter-spacing: 0.1rem;
+    letter-spacing: 1px;
   }
   .logo h2 {
     letter-spacing: normal;
@@ -217,10 +216,22 @@ button {
   .nav-links {
     gap: 0.5rem;
   }
+  .latest {
+    padding: 0;
+    gap: 2rem;
+    margin: 0;
+  }
 }
 
 @media (max-width: 25em) {
   .latest {
-    padding: 0;
+    gap: 2rem;
+    margin: 0;
+  }
+  h3 {
+    margin-top: 3rem;
+  }
+  .nav-links a {
+    font-size: 12px;
   }
 }

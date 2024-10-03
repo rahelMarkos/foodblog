@@ -1,6 +1,6 @@
-@media (max-width: 80em) {
+@media (max-width: 75em) {
   .container {
-    width: 100vw;
+    width: 90vw;
   }
   .hero-img {
     display: flex;
@@ -29,17 +29,23 @@
   }
   .logo {
     letter-spacing: normal;
-    font-size: 12px;
+    font-size: 1.2rem;
   }
 
   .nav-links {
     gap: 0.5rem;
   }
+  .latest {
+    padding: 0;
+    gap: 2rem;
+    margin: 0;
+  }
 }
 
 @media (max-width: 25em) {
   .latest {
-    background-color: red;
     padding: 0;
+    gap: 2rem;
+    margin: 0;
   }
 }
